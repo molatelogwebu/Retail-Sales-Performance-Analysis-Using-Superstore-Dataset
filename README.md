@@ -10,6 +10,17 @@ Records: 9995 customers
 
 Source: Superstore Kaggle Dataset
 
+Key Features: 
+
+- Orders
+- Sales
+- Profit
+- Customers
+- Categories
+- Regions
+- Shipping information
+- Discounts
+
 Objectives
 - Analyze overall sales, profit, and order trends
 - Identify top-performing categories and sub-categories
@@ -50,6 +61,13 @@ The Power BI dashboard includes:
 - Regional performance breakdown
 - Customer segment analysis
 - Discount vs profit impact analysis
+
+Business Recommendations:
+
+- Add forecasting analysis
+- Include customer retention metrics
+- Create a live dashboard version
+- Integrate advanced DAX calculations
 
 Link to PowerBI: https://app.powerbi.com/links/rz_6jrc8C4?ctid=2aada657-6d1e-4320-b92e-dd700921dda5&pbi_source=linkShare&bookmarkGuid=d03e8c19-56a6-4f03-824e-d6611a94ba17
 

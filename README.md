@@ -1,10 +1,14 @@
-Retail-Sales-Performance-Analysis-Using-Superstore-Dataset
+Retail Sales Performance Analysis Using Superstore Dataset
 
 Overview
 
-In this project, the analysis of the Superstore retail dataset has been done to get meaningful business insights related to sales, profitability, customers, and region-specific data.  Some business insights generated from the analysis are discussed and displayed using the Power BI interactive dashboard.
-
 This project analyzes the Superstore retail dataset to uncover key insights into sales performance, profitability, customer behavior, and regional trends. The goal is to transform raw sales data into meaningful business insights that support better decision-making. The analysis is shown through an interactive dashboard for making data-based decisions. The analysis shows the skills in data analysis, visualization, and business intelligence with the use of Power BI.
+
+Dataset Description
+
+Records: 9995 customers
+
+Source: Superstore Kaggle Dataset
 
 Objectives
 - Analyze overall sales, profit, and order trends
@@ -22,9 +26,23 @@ Key Insights
 Tools Used
 - Power BI (Dashboard & Visualization)
 - Excel (Data Cleaning - already completed)
-- Superstore Kaggle Dataset
+
+Methodology
+
+  1. Checked for duplicates - none were found
+     
+  2. Data Cleaning Calculations:
+
+a. Delivery Time: =D2-C2
+
+b. Profit Margin: =U2/R2
+
+c. Sales Category: =IF(R2>500;"HIGH";"LOW")
+
+d. Order Size: =IF(S2>-5;"BULK";"NORMAL")
 
 Dashboard Overview
+
 The Power BI dashboard includes:
 - Executive summary (KPIs: Sales, Profit, Orders, Quantity)
 - Sales and profit trends over time
@@ -33,10 +51,7 @@ The Power BI dashboard includes:
 - Customer segment analysis
 - Discount vs profit impact analysis
 
-Project Structure
-- Data/ → Cleaned dataset
-- Powerbi/ → Power BI dashboard file
-- Images/ → Dashboard screenshots
+Link to PowerBI: https://app.powerbi.com/links/rz_6jrc8C4?ctid=2aada657-6d1e-4320-b92e-dd700921dda5&pbi_source=linkShare&bookmarkGuid=d03e8c19-56a6-4f03-824e-d6611a94ba17
 
 Outcome
 
@@ -44,4 +59,4 @@ This project delivers actionable insights that can help businesses optimize pric
 
 Author
 
-Molatelo Gwebu
+- Molatelo Gwebu

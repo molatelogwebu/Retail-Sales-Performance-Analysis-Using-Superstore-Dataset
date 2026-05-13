@@ -4,11 +4,11 @@ Overview
 
 This project analyzes the Superstore retail dataset to uncover key insights into sales performance, profitability, customer behavior, and regional trends. The goal is to transform raw sales data into meaningful business insights that support better decision-making. The analysis is shown through an interactive dashboard for making data-based decisions. The analysis shows the skills in data analysis, visualization, and business intelligence with the use of Power BI.
 
-Dataset Description
+Dataset Description:
 
-Records: 9995 customers
+- Records: 9995 customers
 
-Source: Superstore Kaggle Dataset
+- Source: Superstore Kaggle Dataset
 
 Key Features: 
 
